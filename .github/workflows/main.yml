@@ -33,7 +33,6 @@ jobs:
         run: yarn build
       - name: Install Surge
         run: npm install -g surge
-      
-    - name: deploying on surge
-      run: surge ./build BootCamp_Class2_by_FaizanAbbasi.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      - name: deploying on surge
+        run: surge ./build BootCamp_Class2_by_FaizanAbbasi.surge.sh --token ${{ secrets.SURGE_TOKEN }}
       
