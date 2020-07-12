@@ -28,8 +28,8 @@ jobs:
       with:
           version: 12
           
-    - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta
+    - name: GitHub Action for Yarn + Cypress
+      uses: KingScooty/actions-yarn-cy@1.0.0
       with:
         cmd: install #npm install/ yarn install
         
