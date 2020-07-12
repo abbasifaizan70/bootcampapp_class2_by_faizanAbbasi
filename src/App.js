@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-        <h1> App Develop by REACT , Faizan Abbasi </h1>
+        <h1> App Develop by REACT  </h1>
     </div>
   );
 }
